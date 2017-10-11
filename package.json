@@ -1,0 +1,11 @@
+{
+  "name": "sticky",
+  "version": "1.0.0",
+  "description": "A prototype for Adverator's Product page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ling Zhou",
+  "license": "ISC"
+}
