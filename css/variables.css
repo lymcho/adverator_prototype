@@ -1,49 +1,74 @@
+/* Text styles */
 h1 {
   font-family: "source sans pro";
-  font-size: 4.8rem;
-  line-height: 4rem;
-  font-weight: 600; }
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: left;
+  color: #101010; }
 
 h2 {
   font-family: "source sans pro";
-  font-size: 3rem;
-  line-height: 3.2rem;
-  font-weight: 300; }
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.07;
+  text-align: left;
+  color: #101010; }
 
 h3 {
   font-family: "source sans pro";
-  font-size: 2.4rem;
-  line-height: 3.2rem;
-  font-weight: 600; }
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  text-align: left;
+  color: #101010; }
 
 h4 {
   font-family: "source sans pro";
-  font-size: 1.8rem;
-  line-height: 2.4rem;
-  font-weight: 300; }
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.33;
+  text-align: left;
+  color: #101010; }
+
+p.lead-body {
+  font-family: "source sans pro";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: left;
+  color: #101010; }
+p.small-body {
+  font-family: "source sans pro";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.33;
+  text-align: left;
+  color: #101010; }
 
 h5 {
   font-family: "source sans pro";
-  font-size: 1.6rem;
-  line-height: 1.6rem;
-  font-weight: 600; }
-
-h6 {
-  font-family: "source sans pro";
-  font-size: 1.2rem;
-  line-height: 1.6rem;
+  font-size: 14px;
   font-weight: 600;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase; }
+  line-height: 1.14;
+  text-align: left;
+  color: #101010; }
 
 p {
   font-family: "source sans pro";
   font-size: 14px;
-  line-height: 20px;
-  font-weight: 300; }
-  p.lead {
-    font-size: 1.6rem;
-    line-height: 2rem;
-    font-weight: 300; }
+  font-weight: 300;
+  line-height: 1.43;
+  text-align: left;
+  color: #101010; }
+
+h6 {
+  font-family: "source sans pro";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #101010; }
 
 /*# sourceMappingURL=variables.css.map */

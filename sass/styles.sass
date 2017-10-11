@@ -2,8 +2,11 @@
 @import "../node_modules/bulma/sass/grid/columns"
 @import "../node_modules/bulma/sass/elements/button"
 @import "../node_modules/bulma/sass/components/tabs"
-@import "variables"
+@import "variables.sass"
 
+
+html
+	font-family: $font-family
 
 
 body
@@ -14,53 +17,80 @@ body
 		width: 0px  /* remove scrollbar space */
 		background: transparent  /* optional: just make scrollbar invisible */
 
-	// @media (min-width: $desktop-breakpoint)
-	// 	margin: 4rem
-	// 	padding: 0rem
-
 
 li
 	display: inline
-	font-family: $font-family
 	padding: 0 0.8rem 0 0 
+	// &:hover
+	// 	border-bottom: 1px solid $blue
+
+a 
+	font-family: $font-family
+	font-size: 16px
+	
+	font-weight: 600
+	color: $black
+	text-decoration: none
+	cursor: pointer
+	&:hover
+		color: $blue
+
+
+
+img
+	display: block
+	margin: 0 0 0 0
 
 
 .nav
 
-	height: 160px
+
 
 
 
 
 
 .productpic
-	background: $white
-	border: $border-l
-	height: 405px
-	margin: 0 0 0.8rem 0
+
+	margin: 0 0 0.4rem 0
 
 .tab
-	background: $lightgrey
-	// border: $border-l
-	padding: 0.8rem 0 0.1rem 0
-
-.box
+	width: 749px
 	background: $white
 	border: $border-l
-	margin: 0
-	padding: 2.4rem
+	// margin: 0 0 0.8rem 0
 
+.box
+	background: blue
 
 .allinfo
-	height: 1800px
+
 	padding: 0 0 0 8rem
+	// background: orange
 
 .keyinfo
-
-	width: 400px
-	height: 400px
+	// background: blue
 
 
 
-.sticky
-	
+
+
+.column
+	padding: 0 0 0.4rem 0 !important
+	margin: 0 !important
+
+
+
+.back
+	position: fixed
+	right: 0 
+	bottom: 32px
+	z-index: 3
+	cursor: pointer
+
+
+
+
+
+
+

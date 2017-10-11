@@ -5,157 +5,88 @@
 	<title>Sticky Prototype</title>
 	<link rel="stylesheet" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600" rel="stylesheet">
-<!-- 	bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet"/>
+
+	
 </head>
 <body>
 
+
+<!-- sticky cart -->
+<!-- <div class="cart">
+	<img src="images/cart.png" width="96px" alt="">
+</div> -->
+
+<!-- back icon -->
+
+<div class="back">
+	<a data-scroll href="#back">
+		<img src="images/back.png" width="120px" alt="">
+	</a>
+	
+</div>
+
+
+
 <!-- top nav -->
-<div class="container-fluid">
+<a id="back"></a>
+<div class="columns">
+	<div class="column">
 	<div class="nav">
-		<img src="../images/nav.png" height="150px" alt="">
+		<img src="../images/nav.png" height="140px" alt="">
+	</div>
 	</div>
 </div>
 
 	<div class="columns">
 <!-- info on the left -->
-<div class="column is-7">
+<div class="column is-8">
 	<div class="allinfo">
 		<div class="productpic">
-			<img src="../images/productpic.png" height="400px" alt="">
+			<img src="../images/productpic.png" width="751px" alt="">
 		</div>
 
 		<div class="tab sticky">
 			 <ul>
-			    <li><strong><a>About this Media</a></strong></li>
-			    <li><a>What's Included</a></li>
-			    <li><a>Ad Specs</a></li>
-			    <li><a>Available Markets</a></li>
-			    <li><a>Sample Ads</a></li>
+			    <li><a data-scroll href="#1">About this Media</a></li>
+			    <li><a data-scroll href="#2">What's Included</a></li>
+			    <li><a data-scroll href="#3">Ad Specs</a></li>
+			    <li><a data-scroll href="#4">Available Markets</a></li>
+			    <li><a data-scroll href="#5">Sample Ads</a></li>
 			  </ul>
 		</div>
-		<div class="box">
-			<H3>About this Media</H3>
-			<br>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius excepturi, sequi impedit natus deserunt fuga quas, laboriosam. Omnis necessitatibus neque libero eaque reiciendis tenetur voluptatem accusantium fugiat id dolorem. Asperiores!
-			</p>
-		</div>
-		<div class="box">
-			<h3>Readership</H3>
-			<br>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius excepturi, sequi impedit natus deserunt fuga quas, laboriosam. Omnis necessitatibus neque libero eaque reiciendis tenetur voluptatem accusantium fugiat id dolorem. Asperiores!
-			</p>
-		</div>
-		<div class="box">
-			<h3>Editorial Calendar</h3>
-			<br>
-			<div class="columns">
-				<div class="column is-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime, error similique consequatur et.</p>
-				</div>
-				<div class="column is-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime, error similique consequatur et.</p>
-				</div>
-				<div class="column is-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime, error similique consequatur et.</p>
-				</div>
-			</div>
-				<div class="columns">
-				<div class="column is-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime, error similique consequatur et.</p>
-				</div>
-				<div class="column is-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime, error similique consequatur et.</p>
-				</div>
-				<div class="column is-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime, error similique consequatur et.</p>
-				</div>
-			</div>
-				<div class="columns">
-				<div class="column is-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime, error similique consequatur et.</p>
-				</div>
-				<div class="column is-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime, error similique consequatur et.</p>
-				</div>
-				<div class="column is-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime, error similique consequatur et.</p>
-				</div>
-			</div>
-				<div class="columns">
-				<div class="column is-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime, error similique consequatur et.</p>
-				</div>
-				<div class="column is-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime, error similique consequatur et.</p>
-				</div>
-				<div class="column is-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime, error similique consequatur et.</p>
-				</div>
-			</div>
-		</div>
-		<div class="box">
-			<h3>Ad Placement</h3>
-			<br>
-			<p>lorem</p>
-			<img src="images/ad.png" height="120px" alt="">
-		</div>
-		<div class="box">
-			<h3>Sample Issue</h3>
-			<br>
-			<img src="images/issue.png" height="320px" alt="">
-		</div>
-		<div class="box">
-			<h3>What's Included</h3>
-			<br>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius excepturi, 
-			</p>
-			<p>sequi impedit natus deserunt fuga quas, laboriosam.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-			</p>
 
-		</div>
-		<div class="box">
-			<h3>Ad Spec</h3>
-			<br>
-			
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-			</p>
+		<div id="1"></div>
+		<img src="images/aboutthismedia.png" width="751px" alt="">
+		<img src="images/readership.png" width="751px" alt="">
+		<img src="images/editorial.png" width="751px" alt="">
+		<img src="images/a.png" width="751px" alt="">
+		<img src="images/sample.png" width="751px" alt="">
+		<div id="2"></div>
+		<img src="images/whatsincluded.png" width="751px" alt="">
+		<div id="3"></div>
+		<img src="images/specs.png" width="751px" alt="">
+		<div id="4"></div>
+		<img src="images/availablemarkets.png" width="751px" alt="">
+		<div id="5"></div>
+		<img src="images/sampleads.png" width="751px" alt="">
+		
 
-		</div>
-		<div class="box">
-			<h3>Available Markets</h3>
-			<br>
-			<img src="images/market.png" alt="">
-			<br><br><br><br>
-			
-
-		</div>
-		<div class="box">
-			<h3>Sample Ads</h3>
-
-		</div>
+		
+		
 	</div>
 </div>
 <!-- info on the right -->
-<div class="column is-5">
+<div class="column is-4">
 	<div class="keyinfo sticky">
 		<img src="images/buy.png" width="362px" alt="">
 	</div>
 </div>
 </div>
-
+<!-- scrolling script -->
+ <script src="node_modules/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
 <!-- sticky script -->
 <script src="node_modules/sticky-js/dist/sticky.min.js"></script>
-<script>
-	var sticky = new Sticky('.sticky');
-</script>
+<script src="../js/main.js"></script>
 </body>
 </html>
