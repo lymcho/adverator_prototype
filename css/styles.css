@@ -1621,24 +1621,33 @@ a {
   font-weight: 600;
   color: #101010;
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+  padding-bottom: 15px; }
   a:hover {
-    color: #317EFC; }
+    color: #317EFC;
+    border-bottom: 2px solid #317EFC; }
+  a:active {
+    color: #317EFC;
+    border-bottom: 2px solid #317EFC; }
 
 img {
   display: block;
   margin: 0 0 0 0; }
 
+.box {
+  border-bottom: 1px solid #ededed;
+  border-left: 1px solid #ededed;
+  border-right: 1px solid #ededed;
+  width: 751px; }
+
 .productpic {
+  width: 751;
   margin: 0 0 0.4rem 0; }
 
 .tab {
-  width: 749px;
+  width: 751px;
   background: #fff;
   border: 1px solid #ededed; }
-
-.box {
-  background: blue; }
 
 .allinfo {
   padding: 0 0 0 8rem; }

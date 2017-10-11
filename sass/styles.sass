@@ -21,19 +21,26 @@ body
 li
 	display: inline
 	padding: 0 0.8rem 0 0 
+
 	// &:hover
 	// 	border-bottom: 1px solid $blue
 
-a 
+a
 	font-family: $font-family
 	font-size: 16px
-	
 	font-weight: 600
+	&:link
 	color: $black
 	text-decoration: none
 	cursor: pointer
+	padding-bottom: 15px
 	&:hover
 		color: $blue
+		border-bottom: 2px solid $blue
+	&:active
+		color: $blue
+		border-bottom: 2px solid $blue
+
 
 
 
@@ -41,6 +48,11 @@ img
 	display: block
 	margin: 0 0 0 0
 
+.box
+	border-bottom: $border-l
+	border-left: $border-l
+	border-right: $border-l
+	width: 751px
 
 .nav
 
@@ -51,17 +63,16 @@ img
 
 
 .productpic
-
+	width: 751
 	margin: 0 0 0.4rem 0
 
 .tab
-	width: 749px
+	width: 751px
 	background: $white
 	border: $border-l
 	// margin: 0 0 0.8rem 0
 
-.box
-	background: blue
+
 
 .allinfo
 
