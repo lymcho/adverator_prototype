@@ -1611,6 +1611,9 @@ body {
     width: 0px;
     background: transparent; }
 
+ul {
+  padding: 0 0 0 1.6rem; }
+
 li {
   display: inline;
   padding: 0 0.8rem 0 0; }
@@ -1639,10 +1642,6 @@ img {
   border-left: 1px solid #ededed;
   border-right: 1px solid #ededed;
   width: 751px; }
-
-.productpic {
-  width: 751;
-  margin: 0 0 0.4rem 0; }
 
 .tab {
   width: 751px;
