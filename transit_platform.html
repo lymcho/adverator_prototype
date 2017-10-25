@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Transit PDP</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet"/>
+		
+	</head>
+	<body>
+
+		<!-- top nav -->
+		<a id="back"></a>
+		<div class="columns">
+			<div class="column">
+				<div class="nav">
+					<img src="images/nav.png" height="140px" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="columns">
+			<!-- info on the left -->
+			<div class="column is-8">
+				<div class="allinfo">
+				<!-- 	product pic -->
+					<div class="box">
+						<img src="images/transit_productpic.png" width="751px" alt="">
+					</div>
+				<!-- 	tab -->
+					<div class="tab sticky">
+						<ul>
+							<li><a data-scroll href="#1">What's Included</a></li>
+							<li><a data-scroll href="#2">About this Media</a></li>
+							<li><a data-scroll href="#3">Ad Specs</a></li>
+							<li><a data-scroll href="#4">Available Markets</a></li>
+						</ul>
+					</div>
+				<!-- 	what's included -->
+					<div id="1"></div>
+					<div class="box">
+						<img src="images/transit_whatsincluded.png" width="751px" alt="">
+					</div>
+				<!-- 	about this media -->
+					<div id="2"></div>
+					<div class="box">
+						<img src="images/transit_aboutthismedia.png" width="751px" alt="">
+					</div>
+					<div class="box">
+						<img src="images/transit_audience.png" width="751px" alt="">
+					</div>
+					
+					<div class="box">
+						<img src="images/transit_a.png" width="751px" alt="">
+					</div>
+				<!-- 	ad specs -->	
+					<div id="3"></div>
+					<div class="box">
+						<img src="images/transit_specs.png" width="751px" alt="">
+						<img src="images/addesign.png" width="751px" alt="">
+					</div>
+					<div id="4"></div>
+					<div class="box">
+						<img src="images/transit_marketinfo.png" width="751px" alt="">
+					</div>
+					<div class="box">
+						<img src="images/transit_availablemarkets.png" width="751px" alt="">
+					</div>
+
+				
+			
+					
+
+					
+					
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+
+			<!-- info on the right -->
+			<div class="column is-4">
+				<div class="keyinfo sticky">
+					<img src="images/transit_buy.png" width="362px" alt="">
+				</div>
+			</div>
+		</div>
+
+		
+		
+		
+		<a href="mobile.html">&nbsp;&nbsp;mobile prototype&nbsp;&nbsp;</a>
+		<a href="web.html">web prototype&nbsp;&nbsp;</a>
+		<a href="transit.html">transit poster prototype&nbsp;&nbsp;</a>
+		<a href="transit_platform.html">transit platform prototype&nbsp;&nbsp;</a>
+		<a href="tv.html">tv prototype&nbsp;&nbsp;</a>
+
+		<!-- dropdown-->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/dropdown.js"></script>
+		<!-- scrolling script -->
+		<script src="js/smooth-scroll.min.js" type="text/javascript"></script>
+		<!-- sticky script -->
+		<script src="js/sticky.min.js" type="text/javascript"></script>
+		<script>
+		//sticky
+		var sticky = new Sticky('.sticky');
+		//smoothscroll initializing settings
+		var scroll = new SmoothScroll('a[href*="#"]', {
+			// Selectors
+			ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+			header: null, // Selector for fixed headers (must be a valid CSS selector)
+			// Speed & Easing
+			speed: 300, // Integer. How fast to complete the scroll in milliseconds
+			offset: 40, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+			easing: 'easeInOutCubic', // Easing pattern to use
+			customEasing: function (time) {}, // Function. Custom easing pattern
+			// Callback API
+			before: function () {}, // Callback to run before scroll
+			after: function () {} // Callback to run after scroll
+		});
+		</script>
+	</body>
+
+
+</html>
